@@ -1,10 +1,3 @@
-/* ===========================================================
-   SALAS DE LA EXPOSICIÓN
-   Se carga después de styles.css. Reutiliza sus variables
-   (--swatch-*, --ink, --gutter…) y su retícula de 12 columnas.
-   =========================================================== */
-
-/* Color de acento por sala (se fija con la clase del body) */
 body.sala-1 {
   --accent: var(--swatch-1);
   --accent-ink: #fff;
@@ -178,7 +171,6 @@ body.sala-6 {
   margin-bottom: 0;
 }
 
-/* Columna de lectura con nota lateral pegajosa */
 .reading {
   align-items: start;
 }
@@ -197,7 +189,6 @@ body.sala-6 {
   grid-column: 9 / 13;
 }
 
-/* Nota lateral: dato grande + etiqueta */
 .fact .num {
   display: block;
   font-family: var(--font-display);

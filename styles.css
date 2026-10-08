@@ -5,12 +5,12 @@
   --line: black;
   --placeholder-bg: #f4f2ee;
 
-  --swatch-1: #007453; /* verde */
-  --swatch-2: #022cd0; /* azul */
-  --swatch-3: #fed400; /* amarillo */
-  --swatch-4: #572910; /* marrón */
-  --swatch-5: #fe67e8; /* rosa */
-  --swatch-6: #1f1f1f; /* negro */
+  --swatch-1: #007453;
+  --swatch-2: #022cd0;
+  --swatch-3: #fed400;
+  --swatch-4: #572910;
+  --swatch-5: #fe67e8;
+  --swatch-6: #1f1f1f;
 
   --font-display: "saans", sans-serif;
   --font-body: "saans", sans-serif;
@@ -19,7 +19,6 @@
   --content-width: 100%;
   --wide-width: 100%;
 
-  /* Margen lateral único de toda la web */
   --gutter: 32px;
 }
 
@@ -154,7 +153,6 @@ nav.main-nav a[aria-current="page"] {
     background: var(--bg);
     flex-direction: column;
     gap: 8px;
-    /* fixed ignora el padding del body, así que repetimos el gutter */
     padding: 24px var(--gutter);
     border-radius: 0;
     border: none;
@@ -481,7 +479,6 @@ blockquote p:last-child {
 
 footer {
   padding: 64px var(--gutter) 80px;
-  /* sale del padding del body para seguir ocupando todo el ancho */
   margin: 60px calc(-1 * var(--gutter)) 0;
   background: var(--ink);
   color: var(--bg);
