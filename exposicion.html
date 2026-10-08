@@ -8,13 +8,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="salas.css">
 </head>
 <body class="page-exposicion">
 
 <header class="site-header">
   <a class="brand" href="index.html">CASAS BAJAS<span>una deriva de barrio(s)</span></a>
   <nav class="main-nav" id="main-nav">
-    <a href="index.html">Inicio</a>
     <a href="barrios.html">Barrio(s)</a>
     <a href="exposicion.html" aria-current="page">Exposición</a>
     <a href="programa.html">Programa público</a>
@@ -26,7 +26,18 @@
   </button>
 </header>
 
-<main>
+<nav aria-label="Salas de la exposición">
+  <ol class="sala-index">
+    <li><a href="aterrizar.html"><span class="n">01</span>Aterrizar en una nueva ciudad</a></li>
+    <li><a href="lucha-vivienda.html"><span class="n">02</span>La lucha por la vivienda</a></li>
+    <li><a href="memoria-mujeres.html"><span class="n">03</span>La memoria de las mujeres</a></li>
+    <li><a href="conquistas-vecinales.html"><span class="n">04</span>Conquistas vecinales</a></li>
+    <li><a href="calles-hablan.html"><span class="n">05</span>Las calles hablan</a></li>
+    <li><a href="postales.html"><span class="n">06</span>Postales</a></li>
+  </ol>
+</nav>
+
+<main id="inicio">
 
   <section class="grid-section">
     <div class="grid">
@@ -78,6 +89,78 @@
       <div class="text-block" style="grid-column: 1 / 13; max-width: none;">
         <p>Esta exposición pretende recuperar estos relatos para volver a colocar a las luchas vecinales y sus protagonistas como esa parte esencial de la historia y la memoria de la ciudad que fueron, y hacerlo a través de distintas voces que se ponen en diálogo: Los textos de esta exposición pertenecen a una parte de la investigación Memoria de las luchas vecinales en Madrid, que el colectivo de mediación cultural La Liminal está realizando en Carabanchel Alto y Meseta de Orcasitas desde 2022. Las imágenes pertenecen al archivo personal de Santi Vaquero, quien ya expuso en el CCCQS en 2022 con la exposición itinerante Un barrio saliendo del barro. Por último, se llevarán a cabo actividades públicas entre los meses de enero a mayo que conectarán la exposición con otros distritos, ya que estos procesos han tenido y tienen resonancias en otros barrios de Madrid y la Comunidad, así como a escala nacional.</p>
       </div>
+    </div>
+  </section>
+
+  <!-- Pendiente: texto de Jara ("Cuidar, contar, compartir: aprendizajes desde CASAS BAJAS")
+  <section class="grid-section">
+    <div class="grid">
+      <figure class="img-frame ph-2" style="grid-column: 1 / 13;">
+        <img src="images/DETALLE_EXPO2.jpeg" alt="DETALLE_EXPO2">
+      </figure>
+      <div class="text-block" style="grid-column: 1 / 11; max-width: none;">
+        <p>…</p>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <section class="grid-section">
+    <div class="grid">
+      <div style="grid-column: 1 / 5;">
+        <span class="eyebrow">Recorrido</span>
+        <h2>Las salas</h2>
+      </div>
+      <ol class="salas-list" style="grid-column: 1 / 13;">
+        <li style="--accent: var(--swatch-1);">
+          <a href="aterrizar.html">
+            <span class="num">01</span>
+            <span class="t">Aterrizar en una nueva ciudad</span>
+            <span class="d">La llegada desde el campo y el crecimiento sin planificación de la periferia.</span>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </li>
+        <li style="--accent: var(--swatch-2);">
+          <a href="lucha-vivienda.html">
+            <span class="num">02</span>
+            <span class="t">La lucha por la vivienda</span>
+            <span class="d">Autoconstrucción, construcción nocturna y la remodelación de los barrios.</span>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </li>
+        <li style="--accent: var(--swatch-5);">
+          <a href="memoria-mujeres.html">
+            <span class="num">03</span>
+            <span class="t">La memoria de las mujeres</span>
+            <span class="d">Redes de vecinas, mítines relámpago y huelgas de consumo.</span>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </li>
+        <li style="--accent: var(--swatch-3);">
+          <a href="conquistas-vecinales.html">
+            <span class="num">04</span>
+            <span class="t">Conquistas vecinales</span>
+            <span class="d">De la Ley de Asociaciones de 1964 al primer local vecinal propio.</span>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </li>
+        <li style="--accent: var(--swatch-4);">
+          <a href="calles-hablan.html">
+            <span class="num">05</span>
+            <span class="t">Las calles hablan</span>
+            <span class="d">Asambleas, protestas y la lucha por parques y fiestas.</span>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </li>
+        <li style="--accent: var(--swatch-6);">
+          <a href="postales.html">
+            <span class="num">06</span>
+            <span class="t">Postales</span>
+            <span class="d">Seis postales del archivo de Santi Vaquero.</span>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </li>
+      </ol>
     </div>
   </section>
 
